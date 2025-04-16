@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import {assets, categories} from '../../assets/assets'
+import {assets, categories} from '../../assets/assets.js'
 import axios from 'axios'
-import { useAppContext } from '../../context/AppContext'
+import { useAppContext } from '../../context/AppContext.jsx'
 import toast from 'react-hot-toast'
 const AddProduct = () => {
     const [files, setFiles] = useState([])

@@ -12,12 +12,12 @@ import ProductDetails from './pages/ProductDetails'
 import Cart from './pages/Cart'
 import AddAddress from './pages/AddAddress'
 import MyOrders from './pages/MyOrders'
-import SellerLogin from './components/seller/SellerLogin'
-import SellerLayout from './pages/SellerLayout'
-import AddProduct from './components/seller/AddProduct'
-import Order from './components/seller/Order'
-import ProductList from './components/seller/ProductList'
-import Loading from './components/Loading'
+import SellerLogin from './components/seller/SellerLogin.jsx'
+import SellerLayout from './pages/SellerLayout.jsx'
+import AddProduct from './components/seller/AddProduct.jsx'
+import Order from './components/seller/Order.jsx'
+import ProductList from './components/seller/ProductList.jsx'
+import Loading from './components/Loading.jsx'
 const App = () => {
   const isSellerPath = useLocation().pathname.includes('seller');
   const {showUserLogin, isSeller} = useAppContext();
